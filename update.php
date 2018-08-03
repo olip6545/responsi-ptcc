@@ -66,7 +66,7 @@
   include("koneksi.php") ;
   $no = $_GET['nama'] ;
   
-  $sql_select_mobil = "SELECT  * FROM `barang` WHERE `no`='{$no}'" ;
+  $sql_select_mobil = "SELECT  * FROM `mobil` WHERE `no`='{$no}'" ;
   
   $query_select_mobil = mysqli_query($konek,$sql_select_mobil) ;
   
